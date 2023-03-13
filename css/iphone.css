@@ -1,5 +1,9 @@
 .iphone {
   position: relative;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+  border-radius: 50px;
 }
 .iphone__frame {
   height: 703.8px;
@@ -48,7 +52,8 @@
   width: 10px;
   height: 10px;
   border-radius: 5px;
-  border: 1px solid #FFF;
+  border: 1px solid transparent;
+  background: linear-gradient(#222, #020234) padding-box, linear-gradient(to right, #020234, #222) border-box;
 }
 .iphone-ft__speaker {
   position: absolute;
@@ -60,14 +65,16 @@
   width: 60px;
   height: 10px;
   border-radius: 5px;
-  border: 1px solid #FFF;
+  border: 1px solid transparent;
+  background: linear-gradient(#111, #222) padding-box, linear-gradient(to right, #222, #222) border-box;
 }
 
 .iphone-fb__home {
-  border: 1px solid #FFF;
+  border: 1px solid transparent;
+  background: linear-gradient(#111, #222) padding-box, linear-gradient(to right, #222, #222) border-box;
   height: 40px;
   width: 40px;
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 .iphone-lb__mute {

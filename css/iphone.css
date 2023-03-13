@@ -30,7 +30,6 @@
 .iphone-frame__screen {
   width: 306px;
   height: 544px;
-  background-color: #e5e5f7;
 }
 .iphone-frame__bottom {
   height: 79.9px;
@@ -97,6 +96,12 @@
   height: 50px;
   background-color: #111111;
   border-radius: 3px 3px 3px 3px;
+}
+
+.iphone-screen {
+  background-image: url("../img/ios16-wallpaper.jpg");
+  background-repeat: no-repeat;
+  background-size: auto 630px;
 }
 
 /*# sourceMappingURL=iphone.css.map */

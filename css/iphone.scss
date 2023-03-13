@@ -198,6 +198,9 @@ $screen-height: 16px;
     font-weight: 300;
     font-size: 15px;
 
+    opacity: 0.6;
+
+
     background: linear-gradient(135deg, #FFFFFF, #FFFFFF, #111111, #FFFFFF, #FFFFFF);
     background-size: 800% 800%;
     animation: slide-gradient 4s ease infinite;
@@ -215,6 +218,26 @@ $screen-height: 16px;
     right: 5px;
 
     width: 25px;
+
+    opacity: 0.5;
+
+  }
+
+  &__bottom{
+    position: absolute;
+    bottom: 6px;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    width: 40px;
+    height: 5px;
+
+    opacity: 0.5;
+    border-radius: 3px;
+    background-color: #FFFFFF;
   }
 
 }
@@ -281,7 +304,7 @@ $screen-height: 16px;
 
   &__battery{
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 5px;
 
     opacity: 0.7;

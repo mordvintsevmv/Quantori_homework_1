@@ -11,6 +11,7 @@
 ## <a name="content">Content</a>
 
 0. [Design](#design)
+    1. [iPhone layout](#design-iphone)
     1. [Fonts](#design-fonts)
 2. [Contacts](#contacts)
 
@@ -18,6 +19,33 @@
 ---
 
 ## <a name="design">Design</a>
+
+### <a name="design-iphone">iPhone layout</a>
+
+iPhone se 2020 was taken as a basis.
+All the dimensions and layout of the main elements were taken from the official [Apple website](https://www.apple.com/iphone-se/specs/).
+
+<img src="readme-img/iphone-laout.png" alt="iPhone layout" height="400px"/>
+
+*- iPhone layout*
+
+<img src="readme-img/iphone-size.png" alt="iPhone sizes" height="400px"/>
+
+*- iPhone sizes*
+
+**Based on the found layouts , it was decided to take the following sizes as a basis:**
+
+**iPhone height:** 138px;
+
+**iPhone width:** 67px.
+
+**According to screen resolution (16x9):**
+
+**Screen height:** 16px;
+
+**Screen height:** 9px.
+
+The base sizes will change (x5, for example) during development to match the actual size of the iPhone.
 
 ### <a name="design-fonts">Fonts</a>
 

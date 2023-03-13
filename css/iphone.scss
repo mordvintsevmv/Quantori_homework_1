@@ -5,11 +5,11 @@ $screen-width: 9px;
 $screen-height: 16px;
 
 // Main Iphone Block
-.iphone{
+.iphone {
 
   position: relative;
 
-  &__frame{
+  &__frame {
     height: $iphone-height*5.1;
     width: $iphone-width*5.1;
 
@@ -19,14 +19,14 @@ $screen-height: 16px;
     border-radius: 50px;
   }
 
-  &__left-buttons{
+  &__left-buttons {
     position: absolute;
 
     top: 90px;
     left: -2px;
   }
 
-  &__right-buttons{
+  &__right-buttons {
     position: absolute;
 
     top: 150px;
@@ -35,22 +35,22 @@ $screen-height: 16px;
 }
 
 // Front side of Iphone
-.iphone-frame{
+.iphone-frame {
   display: grid;
 
   justify-content: center;
   align-items: center;
 
-  &__top{
+  &__top {
     height: ($iphone-height*5.1 - $screen-height*34)/2;
   }
 
-  &__screen{
+  &__screen {
     width: $screen-width*34;
     height: $screen-height*34;
   }
 
-  &__bottom{
+  &__bottom {
     height: ($iphone-height*5.1 - $screen-height*34)/2;
 
     display: grid;
@@ -60,10 +60,10 @@ $screen-height: 16px;
 }
 
 // Block with camera and speaker
-.iphone-ft{
+.iphone-ft {
   position: relative;
 
-  &__camera{
+  &__camera {
     position: absolute;
 
     top: 40px;
@@ -76,7 +76,7 @@ $screen-height: 16px;
     border: 1px solid #FFF;
   }
 
-  &__speaker{
+  &__speaker {
     position: absolute;
 
     top: 40px;
@@ -95,8 +95,8 @@ $screen-height: 16px;
   }
 }
 
-.iphone-fb{
-  &__home{
+.iphone-fb {
+  &__home {
     border: 1px solid #FFF;
 
     height: 40px;
@@ -108,29 +108,29 @@ $screen-height: 16px;
 }
 
 // Left Buttons
-.iphone-lb{
-  &__mute{
+.iphone-lb {
+  &__mute {
     width: 6px;
-    height:28px;
+    height: 28px;
     background-color: #111111;
 
     border-radius: 3px 0 0 3px;
 
   }
 
-  &__v-up{
+  &__v-up {
     margin-top: 33px;
     width: 6px;
-    height:50px;
+    height: 50px;
     background-color: #111111;
 
     border-radius: 3px 0 0 3px;
   }
 
-  &__v-down{
+  &__v-down {
     margin-top: 10px;
     width: 6px;
-    height:50px;
+    height: 50px;
     background-color: #111111;
 
     border-radius: 3px 0 0 3px;
@@ -138,11 +138,11 @@ $screen-height: 16px;
 }
 
 // Right buttons
-.iphone-rb{
+.iphone-rb {
 
-  &__power{
+  &__power {
     width: 6px;
-    height:50px;
+    height: 50px;
     background-color: #111111;
 
     border-radius: 3px 3px 3px 3px;
@@ -150,10 +150,46 @@ $screen-height: 16px;
 }
 
 // iPhone screen
-.iphone-screen{
+.iphone-screen {
+  position: relative;
+
   background-image: url("../img/ios16-wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: auto $screen-width*70;
+
+  &__slide {
+    position: absolute;
+    width: 100%;
+
+    bottom: 30px;
+
+    text-align: center;
+
+    color: #FFFFFF;
+    font-weight: 300;
+    font-size: 15px;
+
+    background: linear-gradient(135deg, #FFFFFF, #FFFFFF, #111111, #FFFFFF, #FFFFFF);
+    background-size: 800% 800%;
+    animation: slide-gradient 4s ease infinite;
+    -webkit-background-clip: text;
+    background-clip: text;
+
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: slide-gradient 4s ease infinite;
+
+
+  }
+
+}
+
+@keyframes slide-gradient {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 -100%;
+  }
 
 
 }

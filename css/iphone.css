@@ -99,9 +99,35 @@
 }
 
 .iphone-screen {
+  position: relative;
   background-image: url("../img/ios16-wallpaper.jpg");
   background-repeat: no-repeat;
   background-size: auto 630px;
+}
+.iphone-screen__slide {
+  position: absolute;
+  width: 100%;
+  bottom: 30px;
+  text-align: center;
+  color: #FFFFFF;
+  font-weight: 300;
+  font-size: 15px;
+  background: linear-gradient(135deg, #FFFFFF, #FFFFFF, #111111, #FFFFFF, #FFFFFF);
+  background-size: 800% 800%;
+  animation: slide-gradient 4s ease infinite;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: slide-gradient 4s ease infinite;
+}
+
+@keyframes slide-gradient {
+  0% {
+    background-position: 100% 0;
+  }
+  100% {
+    background-position: 0 -100%;
+  }
 }
 
 /*# sourceMappingURL=iphone.css.map */

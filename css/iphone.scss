@@ -1,0 +1,104 @@
+$iphone-width: 67px;
+$iphone-height: 138px;
+
+// Main Iphone Block
+.iphone{
+
+  position: relative;
+
+  &__frame{
+    height: $iphone-height*5.1;
+    width: $iphone-width*5.1;
+
+    background-color: #111111;
+
+    border: 1px solid grey;
+    border-radius: 50px;
+  }
+
+  &__left-buttons{
+    position: absolute;
+
+    top: 90px;
+    left: -2px;
+  }
+
+  &__right-buttons{
+    position: absolute;
+
+    top: 150px;
+    right: -2px;
+  }
+}
+
+// Front side of Iphone
+.iphone__frame{
+  &__top{
+
+  }
+
+  &__screen{
+
+  }
+
+  &__home{
+
+  }
+}
+
+// Block with camera, sensor and speaker
+.iphone-ft{
+  &__sensor{
+
+  }
+
+  &__camera{
+
+  }
+
+  &__speaker{
+
+  }
+}
+
+// Left Buttons
+.iphone-lb{
+  &__mute{
+    width: 6px;
+    height:28px;
+    background-color: #111111;
+
+    border-radius: 3px 0 0 3px;
+
+  }
+
+  &__v-up{
+    margin-top: 33px;
+    width: 6px;
+    height:50px;
+    background-color: #111111;
+
+    border-radius: 3px 0 0 3px;
+  }
+
+  &__v-down{
+    margin-top: 10px;
+    width: 6px;
+    height:50px;
+    background-color: #111111;
+
+    border-radius: 3px 0 0 3px;
+  }
+}
+
+// Right buttons
+.iphone-rb{
+
+  &__power{
+    width: 6px;
+    height:50px;
+    background-color: #111111;
+
+    border-radius: 3px 3px 3px 3px;
+  }
+}

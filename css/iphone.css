@@ -1,0 +1,50 @@
+.iphone {
+  position: relative;
+}
+.iphone__frame {
+  height: 703.8px;
+  width: 341.7px;
+  background-color: #111111;
+  border: 1px solid grey;
+  border-radius: 50px;
+}
+.iphone__left-buttons {
+  position: absolute;
+  top: 90px;
+  left: -2px;
+}
+.iphone__right-buttons {
+  position: absolute;
+  top: 150px;
+  right: -2px;
+}
+
+.iphone-lb__mute {
+  width: 6px;
+  height: 28px;
+  background-color: #111111;
+  border-radius: 3px 0 0 3px;
+}
+.iphone-lb__v-up {
+  margin-top: 33px;
+  width: 6px;
+  height: 50px;
+  background-color: #111111;
+  border-radius: 3px 0 0 3px;
+}
+.iphone-lb__v-down {
+  margin-top: 10px;
+  width: 6px;
+  height: 50px;
+  background-color: #111111;
+  border-radius: 3px 0 0 3px;
+}
+
+.iphone-rb__power {
+  width: 6px;
+  height: 50px;
+  background-color: #111111;
+  border-radius: 3px 3px 3px 3px;
+}
+
+/*# sourceMappingURL=iphone.css.map */

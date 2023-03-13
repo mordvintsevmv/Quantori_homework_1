@@ -1,3 +1,22 @@
+/*
+    Colors:
+
+red: #EF3F3F
+yellow: #F4D00C
+blue: #0C93B6
+grey: #373F42
+
+*/
+
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #e5e5f7;
+    opacity: 0.8;
+    background-image:  radial-gradient(#373F42 0.5px, transparent 0.5px), radial-gradient(#373F42 0.5px, #e5e5f7 0.5px);
+    background-size: 20px 20px;
+    background-position: 0 0,10px 10px;
+
+    display: grid;
+    justify-content: center;
+    align-items: center;
 }

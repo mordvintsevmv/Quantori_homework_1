@@ -1,6 +1,9 @@
 $iphone-width: 67px;
 $iphone-height: 138px;
 
+$screen-width: 9px;
+$screen-height: 16px;
+
 // Main Iphone Block
 .iphone{
 
@@ -32,31 +35,76 @@ $iphone-height: 138px;
 }
 
 // Front side of Iphone
-.iphone__frame{
-  &__top{
+.iphone-frame{
+  display: grid;
 
+  justify-content: center;
+  align-items: center;
+
+  &__top{
+    height: ($iphone-height*5.1 - $screen-height*34)/2;
   }
 
   &__screen{
+    width: $screen-width*34;
+    height: $screen-height*34;
 
+    background-color: #e5e5f7;
   }
 
-  &__home{
+  &__bottom{
+    height: ($iphone-height*5.1 - $screen-height*34)/2;
 
+    display: grid;
+    justify-content: center;
+    align-items: center;
   }
 }
 
-// Block with camera, sensor and speaker
+// Block with camera and speaker
 .iphone-ft{
-  &__sensor{
-
-  }
+  position: relative;
 
   &__camera{
+    position: absolute;
 
+    top: 40px;
+    left: 95px;
+
+    width: 10px;
+    height: 10px;
+
+    border-radius: 5px;
+    border: 1px solid #FFF;
   }
 
   &__speaker{
+    position: absolute;
+
+    top: 40px;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+
+    width: 60px;
+    height: 10px;
+
+    border-radius: 5px;
+    border: 1px solid #FFF;
+  }
+}
+
+.iphone-fb{
+  &__home{
+    border: 1px solid #FFF;
+
+    height: 40px;
+    width: 40px;
+
+    border-radius: 20px;
 
   }
 }

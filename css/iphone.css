@@ -19,6 +19,58 @@
   right: -2px;
 }
 
+.iphone-frame {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.iphone-frame__top {
+  height: 79.9px;
+}
+.iphone-frame__screen {
+  width: 306px;
+  height: 544px;
+  background-color: #e5e5f7;
+}
+.iphone-frame__bottom {
+  height: 79.9px;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+
+.iphone-ft {
+  position: relative;
+}
+.iphone-ft__camera {
+  position: absolute;
+  top: 40px;
+  left: 95px;
+  width: 10px;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+}
+.iphone-ft__speaker {
+  position: absolute;
+  top: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  width: 60px;
+  height: 10px;
+  border-radius: 5px;
+  border: 1px solid #FFF;
+}
+
+.iphone-fb__home {
+  border: 1px solid #FFF;
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
 .iphone-lb__mute {
   width: 6px;
   height: 28px;

@@ -6,6 +6,8 @@
 
 **Feature | Static Iphone Branch:** <a href="https://quantori-hw1-feature-static.netlify.app/" target="_blank">Open page</a>
 
+**Feature | JavaScript Iphone Branch:** <a href="https://quantori-hw1-feature-js.netlify.app/" target="_blank">Open page</a>
+
 ---
 
 ## <a name="content">Content</a>

@@ -53,7 +53,7 @@
   height: 10px;
   border-radius: 5px;
   border: 1px solid transparent;
-  background: linear-gradient(#222, #020234) padding-box, linear-gradient(to right, #020234, #222) border-box;
+  background: linear-gradient(#222222, #020234) padding-box, linear-gradient(to right, #020234, #222222) border-box;
 }
 .iphone-ft__speaker {
   position: absolute;
@@ -66,12 +66,12 @@
   height: 10px;
   border-radius: 5px;
   border: 1px solid transparent;
-  background: linear-gradient(#111, #222) padding-box, linear-gradient(to right, #222, #222) border-box;
+  background: linear-gradient(#111111, #222222) padding-box, linear-gradient(to right, #111111, #111111) border-box;
 }
 
 .iphone-fb__home {
   border: 1px solid transparent;
-  background: linear-gradient(#111, #222) padding-box, linear-gradient(to right, #222, #222) border-box;
+  background: linear-gradient(#111111, #222222) padding-box, linear-gradient(to right, #111111, #222222) border-box;
   height: 40px;
   width: 40px;
   border-radius: 25px;
@@ -102,7 +102,7 @@
   width: 6px;
   height: 50px;
   background-color: #111111;
-  border-radius: 3px 3px 3px 3px;
+  border-radius: 0 3px 3px 0;
 }
 
 .iphone-screen {
@@ -133,13 +133,13 @@
 }
 .iphone-screen__slide {
   position: absolute;
-  width: 100%;
   bottom: 30px;
-  text-align: center;
   color: #FFFFFF;
   font-weight: 300;
   font-size: 15px;
   opacity: 0.6;
+  width: 100%;
+  text-align: center;
   background: linear-gradient(135deg, #FFFFFF, #FFFFFF, #111111, #FFFFFF, #FFFFFF);
   background-size: 800% 800%;
   animation: slide-gradient 4s ease infinite;
@@ -152,8 +152,8 @@
   position: absolute;
   bottom: 5px;
   right: 5px;
-  width: 25px;
   opacity: 0.5;
+  width: 25px;
 }
 .iphone-screen__bottom {
   position: absolute;
@@ -201,12 +201,12 @@
 }
 .iphone-st__lock {
   position: absolute;
-  width: 10px;
   top: -2px;
   margin-left: auto;
   margin-right: auto;
   left: 0;
   right: 0;
+  width: 10px;
   opacity: 0.7;
 }
 .iphone-st__lock img {

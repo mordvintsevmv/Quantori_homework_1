@@ -9,9 +9,10 @@ $screen-height: 16px;
 
   position: relative;
 
-  box-shadow: 0 0 20px  rgba(0,0,0,0.75);
-  -webkit-box-shadow: 0 0 20px rgba(0,0,0,0.75);
-  -moz-box-shadow: 0 0 20px rgba(0,0,0,0.75);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, 0.75);
+
   border-radius: 50px;
 
 
@@ -42,6 +43,7 @@ $screen-height: 16px;
 
 // Front side of Iphone
 .iphone-frame {
+
   display: grid;
 
   justify-content: center;
@@ -60,6 +62,7 @@ $screen-height: 16px;
     height: ($iphone-height*5.1 - $screen-height*34)/2;
 
     display: grid;
+
     justify-content: center;
     align-items: center;
   }
@@ -67,6 +70,7 @@ $screen-height: 16px;
 
 // Block with camera and speaker
 .iphone-ft {
+
   position: relative;
 
   &__camera {
@@ -80,8 +84,7 @@ $screen-height: 16px;
 
     border-radius: 5px;
     border: 1px solid transparent;
-    background: linear-gradient(#222, #020234) padding-box,
-    linear-gradient(to right, #020234, #222) border-box;
+    background: linear-gradient(#222222, #020234) padding-box, linear-gradient(to right, #020234, #222222) border-box;
   }
 
   &__speaker {
@@ -94,23 +97,21 @@ $screen-height: 16px;
     left: 0;
     right: 0;
 
-
     width: 60px;
     height: 10px;
 
     border-radius: 5px;
     border: 1px solid transparent;
-    background: linear-gradient(#111, #222) padding-box,
-    linear-gradient(to right, #222, #222) border-box;
+    background: linear-gradient(#111111, #222222) padding-box, linear-gradient(to right, #111111, #111111) border-box;
 
   }
 }
 
+// Block with home button
 .iphone-fb {
   &__home {
     border: 1px solid transparent;
-    background: linear-gradient(#111, #222) padding-box,
-    linear-gradient(to right, #222, #222) border-box;
+    background: linear-gradient(#111111, #222222) padding-box, linear-gradient(to right, #111111, #222222) border-box;
 
     height: 40px;
     width: 40px;
@@ -133,6 +134,7 @@ $screen-height: 16px;
 
   &__v-up {
     margin-top: 33px;
+
     width: 6px;
     height: 50px;
     background-color: #111111;
@@ -142,6 +144,7 @@ $screen-height: 16px;
 
   &__v-down {
     margin-top: 10px;
+
     width: 6px;
     height: 50px;
     background-color: #111111;
@@ -158,7 +161,7 @@ $screen-height: 16px;
     height: 50px;
     background-color: #111111;
 
-    border-radius: 3px 3px 3px 3px;
+    border-radius: 0 3px 3px 0;
   }
 }
 
@@ -170,10 +173,11 @@ $screen-height: 16px;
   background-repeat: no-repeat;
   background-size: auto $screen-width*70;
 
-  &__date{
+  &__date {
     position: absolute;
 
     top: 40px;
+
     color: #FFFFFF;
     font-weight: 400;
     font-size: 16px;
@@ -184,7 +188,7 @@ $screen-height: 16px;
 
   }
 
-  &__time{
+  &__time {
     position: absolute;
 
     top: 50px;
@@ -201,43 +205,44 @@ $screen-height: 16px;
 
   &__slide {
     position: absolute;
-    width: 100%;
 
     bottom: 30px;
-
-    text-align: center;
 
     color: #FFFFFF;
     font-weight: 300;
     font-size: 15px;
-
     opacity: 0.6;
 
+    width: 100%;
+    text-align: center;
 
     background: linear-gradient(135deg, #FFFFFF, #FFFFFF, #111111, #FFFFFF, #FFFFFF);
     background-size: 800% 800%;
+
     animation: slide-gradient 4s ease infinite;
     -webkit-background-clip: text;
     background-clip: text;
-
     -webkit-text-fill-color: transparent;
     -webkit-animation: slide-gradient 4s ease infinite;
 
   }
 
-  &__camera{
+  &__camera {
     position: absolute;
+
     bottom: 5px;
     right: 5px;
 
+    opacity: 0.5;
+
     width: 25px;
 
-    opacity: 0.5;
 
   }
 
-  &__bottom{
+  &__bottom {
     position: absolute;
+
     bottom: 6px;
 
     margin-left: auto;
@@ -262,16 +267,16 @@ $screen-height: 16px;
   100% {
     background-position: 0 -100%;
   }
-
-
 }
 
-.iphone-st{
+// Top bar of the screen (network and battery)
+.iphone-st {
 
   position: relative;
 
-  &__network{
+  &__network {
     position: absolute;
+
     top: 2px;
     left: 5px;
 
@@ -292,13 +297,12 @@ $screen-height: 16px;
       font-size: 12px;
       font-weight: 200;
       display: inline;
-
     }
+
   }
 
-  &__lock{
+  &__lock {
     position: absolute;
-    width: 10px;
 
     top: -2px;
 
@@ -307,6 +311,7 @@ $screen-height: 16px;
     left: 0;
     right: 0;
 
+    width: 10px;
     opacity: 0.7;
 
     img {
@@ -315,13 +320,13 @@ $screen-height: 16px;
     }
   }
 
-  &__battery{
+  &__battery {
     position: absolute;
+
     top: 0;
     right: 5px;
 
     opacity: 0.7;
-
 
     img {
       height: 20px;

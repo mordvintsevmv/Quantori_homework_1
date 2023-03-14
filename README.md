@@ -1,12 +1,27 @@
 # Quantori Homework #1
 
-##
+### Introducing to HTMl, CSS, Git
+
+---
 
 **Main branch:** <a href="https://mordvintsevmv.github.io/quantori_homework_1" target="_blank">Open page</a>
 
+**Description:** *The main branch of the app.*
+
+---
+
 **Feature | Static Iphone Branch:** <a href="https://quantori-hw1-feature-static.netlify.app/" target="_blank">Open page</a>
 
+**Description:** *All elements of the iPhone SE 2020 are implemented using pure HTML and CSS (SCSS).*
+
+---
+
 **Feature | JavaScript Iphone Branch:** <a href="https://quantori-hw1-feature-js.netlify.app/" target="_blank">Open page</a>
+
+**Description:** *Added JS scripts:*
+
+- *Button click events (mute, volume, power, home);*
+- *Dynamic change of date and time.*
 
 ---
 

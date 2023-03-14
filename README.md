@@ -1,6 +1,6 @@
 # Quantori Homework #1
 
-### Introducing to HTMl, CSS, Git
+### Introducing to HTML, CSS, Git
 
 ---
 
@@ -27,11 +27,14 @@
 
 ## <a name="content">Content</a>
 
-0. [Task](#Task)
-0. [Design](#design)
+1. [Task](#Task)
+2. [Design](#design)
     1. [iPhone layout](#design-iphone)
-    1. [Fonts](#design-fonts)
-2. [Contacts](#contacts)
+    2. [Fonts](#design-fonts)
+3. [Branches](#branches)
+   1. [feature/static-iphone](#branches-js)
+   2. [feature/js-iphone](#branches-static)
+4. [Contacts](#contacts)
 
 
 ---
@@ -125,6 +128,27 @@ The comparison is shown in the image:
 *- Comparison of SF Pro and Roboto fonts*
 
 [🔝Content🔝](#content)
+
+---
+
+## <a name="branches">Branches</a>
+
+### <a name="branches-static">feature/static-iphone</a>
+
+**Description:** *All elements of the iPhone SE 2020 are implemented using pure HTML and CSS (SCSS).*
+
+![feature-static-test](readme-img/feature-static-test.png)
+
+---
+
+### <a name="branches-js">feature/js-iphone</a>
+
+**Description:** *Added JS scripts:*
+
+- *Button click events (mute, volume, power, home);*
+- *Dynamic change of date and time.*
+
+![feature-js-test](readme-img/feature-js-test.gif)
 
 ---
 

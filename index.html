@@ -69,7 +69,7 @@
         </div>
 
         <!--SCREEN-->
-        <div class="iphone-frame__screen iphone-screen">
+        <div class="iphone-frame__screen iphone-screen" id="iphone-screen">
 
             <!--TOP BAR WITH NETWORK AND BATTERY-->
             <div class="iphone-screen__top iphone-st">
@@ -81,8 +81,8 @@
 
                 </div>
 
-                <div class="iphone-st__lock">
-                    <img src="img/lock-close.svg" alt="lock"/>
+                <div class="iphone-st__lock" id="iphone-lock">
+                    <img id="iphone-lock-img" src="img/lock-close.svg" alt="lock"/>
                 </div>
 
                 <div class="iphone-st__battery">
@@ -98,30 +98,38 @@
             <div class="iphone-screen__bottom"></div>
             <img src="img/camera.svg" alt="camera" class="iphone-screen__camera"/>
 
+            <div class="iphone-screen__volume" id="iphone-volume"></div>
+            <div class="iphone-screen__mute" id="iphone-mute-block">
+                <img id="iphone-mute-image" src="/img/mute-off.svg" alt="mute"/>
+                <p id="iphone-mute-text">Mute off</p>
+            </div>
+
+
         </div>
 
         <!--BOTTOM SIDE WITH HOME BUTTON-->
         <div class="iphone-frame__bottom iphone-fb">
-            <div class="iphone-fb__home"></div>
+            <div class="iphone-fb__home" id="iphone-home"></div>
         </div>
 
     </div>
 
     <!--LEFT BUTTONS OF IPHONE-->
     <div class="iphone__left-buttons iphone-lb">
-        <div class="iphone-lb__mute"></div>
-        <div class="iphone-lb__v-up"></div>
-        <div class="iphone-lb__v-down"></div>
+        <div class="iphone-lb__mute" id="iphone-mute"></div>
+        <div class="iphone-lb__v-up" id="iphone-v-up"></div>
+        <div class="iphone-lb__v-down" id="iphone-v-down"></div>
     </div>
 
     <!--RIGHT BUTTONS OF IPHONE-->
     <div class="iphone__right-buttons iphone-rb">
-        <div class="iphone-rb__power"></div>
+        <div class="iphone-rb__power" id="iphone-power"></div>
     </div>
 
 </div>
 
 <script src="js/date-time.js"></script>
+<script src="js/buttons.js"></script>
 
 </body>
 </html>

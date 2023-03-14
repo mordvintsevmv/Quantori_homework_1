@@ -118,7 +118,11 @@ $screen-height: 16px;
 
     border-radius: 25px;
 
+    &:hover {
+      cursor: pointer;
+    }
   }
+
 }
 
 // Left Buttons
@@ -130,6 +134,9 @@ $screen-height: 16px;
 
     border-radius: 3px 0 0 3px;
 
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__v-up {
@@ -140,6 +147,10 @@ $screen-height: 16px;
     background-color: #111111;
 
     border-radius: 3px 0 0 3px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   &__v-down {
@@ -150,6 +161,10 @@ $screen-height: 16px;
     background-color: #111111;
 
     border-radius: 3px 0 0 3px;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -162,6 +177,10 @@ $screen-height: 16px;
     background-color: #111111;
 
     border-radius: 0 3px 3px 0;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -256,6 +275,73 @@ $screen-height: 16px;
     opacity: 0.5;
     border-radius: 3px;
     background-color: #FFFFFF;
+  }
+
+  &__volume{
+    position: absolute;
+
+    top: 75px;
+    left: 10px;
+
+    width: 30px;
+    height: 100px;
+
+    opacity: 0;
+    border-radius: 10px;
+    background: linear-gradient(0deg, #FFFFFF 50%, transparent 50%);
+
+    transition: 0.3s;
+
+    &:before{
+      content: '';
+      position: inherit;
+
+      width: 30px;
+      height: 100px;
+
+      opacity: 0.7;
+      border-radius: 10px;
+
+      background: #666666;
+    }
+  }
+
+  &__mute{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+
+    top: 5px;
+
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+
+    width: 120px;
+    height: 30px;
+
+    opacity: 0;
+    border-radius: 15px;
+    background: #47525C;
+
+    transition: 0.3s;
+
+    img{
+      height: 30px;
+      opacity: 0.7;
+
+    }
+
+    p{
+      color: #FFFFFF;
+      opacity: 0.7;
+      font-weight: 300;
+      font-size: 15px;
+    }
   }
 
 }

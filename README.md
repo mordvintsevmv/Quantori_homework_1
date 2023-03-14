@@ -83,6 +83,18 @@ All the dimensions and layout of the main elements were taken from the official 
 
 The base sizes will change (x5, for example) during development to match the actual size of the iPhone.
 
+**Example:**
+
+```scss
+$iphone-width: 67px;
+$iphone-height: 138px;
+
+$screen-width: 9px;
+$screen-height: 16px;
+```
+
+*iphone.scss*
+
 ### <a name="design-fonts">Fonts</a>
 
 The terms of using Apple fonts (including iOS font SF Pro) include the following rule:

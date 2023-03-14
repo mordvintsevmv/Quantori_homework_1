@@ -10,11 +10,30 @@
 
 ## <a name="content">Content</a>
 
+0. [Task](#Task)
 0. [Design](#design)
     1. [iPhone layout](#design-iphone)
     1. [Fonts](#design-fonts)
 2. [Contacts](#contacts)
 
+
+---
+
+## <a name="Task">Task</a>
+
+Implement the image below with HTML and CSS. (iPhone)
+- [X] Set the background. It should be stretched to 100% of the height and width of the browser tab.
+
+**Smartphone:**
+- [X] Must be centered in relation to the page
+- [X] Create a "screen" with an indentation. Fill it in a monochrome dark color, and the body in a color closer to the original.
+- [X] Add rounded corners
+- [X] Add a border of a different color to the phone
+- [X] Add a "center round button" with a border
+- [X] Add speaker/video camera elements (those above the screen)
+- [X] Add side buttons 
+- [X] A little more complicated variant - to set an image on the screen
+- [X] Extra task  * - to create an image on the screen (clock, date, background, camera icon, Slide to unlock element, etc.)
 
 ---
 

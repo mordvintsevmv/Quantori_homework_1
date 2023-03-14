@@ -95,6 +95,15 @@ $screen-height: 16px;
 
 *iphone.scss*
 
+```scss
+  &__screen {
+    width: $screen-width*34;
+    height: $screen-height*34;
+  }
+```
+
+*Adding height and width of the screen with variables*
+
 ### <a name="design-fonts">Fonts</a>
 
 The terms of using Apple fonts (including iOS font SF Pro) include the following rule:

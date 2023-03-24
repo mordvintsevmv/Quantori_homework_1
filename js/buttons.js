@@ -29,7 +29,7 @@ home_button.addEventListener("click", ()=>{
         document.getElementById('iphone-screen').style.opacity = "1";
     }
 
-    document.getElementById('iphone-lock-img').src = "../img/lock-open.svg"
+    document.getElementById('iphone-lock-img').src = "img/lock-open.svg"
 
 })
 
@@ -45,12 +45,12 @@ mute_button.addEventListener("click", ()=>{
 
     if (iphone_state.mute){
         iphone_state.mute = false;
-        document.getElementById('iphone-mute-image').src = "../img/mute-off.svg"
+        document.getElementById('iphone-mute-image').src = "img/mute-off.svg"
         document.getElementById('iphone-mute-text').innerText = "Mute off"
 
     } else{
         iphone_state.mute = true;
-        document.getElementById('iphone-mute-image').src = "../img/mute-on.svg"
+        document.getElementById('iphone-mute-image').src = "img/mute-on.svg"
         document.getElementById('iphone-mute-text').innerText = "Mute on"
     }
 })
@@ -102,7 +102,7 @@ power_button.addEventListener("click", ()=>{
         iphone_state.block = true;
 
         document.getElementById('iphone-screen').style.opacity = "0";
-        document.getElementById('iphone-lock-img').src = "../img/lock-close.svg"
+        document.getElementById('iphone-lock-img').src = "img/lock-close.svg"
     } else{
         iphone_state.screen = true;
 

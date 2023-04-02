@@ -44,15 +44,92 @@
     <!--FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
 
     <!--STYLES-->
     <link href="css/index.css" rel="stylesheet" type="text/css">
     <link href="css/null.css" rel="stylesheet" type="text/css">
+    <link href="css/iphone.css" rel="stylesheet" type="text/css">
 
     <title>Quantori Homework #1</title>
 </head>
 <body>
+
+<!--IPHONE BLOCK-->
+<div class="iphone">
+
+    <!--BLOCK WITH FRONT SIDE OF IPHONE-->
+    <div class="iphone__frame iphone-frame">
+
+        <!--TOP SIDE WITH CAMERA AND SPEAKER-->
+        <div class="iphone-frame__top iphone-ft">
+            <div class="iphone-ft__camera"></div>
+            <div class="iphone-ft__speaker"></div>
+        </div>
+
+        <!--SCREEN-->
+        <div class="iphone-frame__screen iphone-screen" id="iphone-screen">
+
+            <!--TOP BAR WITH NETWORK AND BATTERY-->
+            <div class="iphone-screen__top iphone-st">
+
+                <div class="iphone-st__network">
+                    <img src="img/network.svg" alt="network"/>
+                    <p>Ucom</p>
+                    <img src="img/wifi.svg" alt="wifi"/>
+
+                </div>
+
+                <div class="iphone-st__lock" id="iphone-lock">
+                    <img id="iphone-lock-img" src="img/lock-close.svg" alt="lock"/>
+                </div>
+
+                <div class="iphone-st__battery">
+                    <img src="img/battery.svg" alt="battery"/>
+                </div>
+
+            </div>
+
+            <!--MAIN ELEMENTS OF THE SCREEN-->
+            <div class="iphone-screen__date" id="iphone-date"></div>
+            <div class="iphone-screen__time" id="iphone-time"></div>
+            <div class="iphone-screen__slide"> > slide to unlock</div>
+            <div class="iphone-screen__bottom"></div>
+            <img src="img/camera.svg" alt="camera" class="iphone-screen__camera"/>
+
+            <div class="iphone-screen__volume" id="iphone-volume"></div>
+            <div class="iphone-screen__mute" id="iphone-mute-block">
+                <img id="iphone-mute-image" src="/img/mute-off.svg" alt="mute"/>
+                <p id="iphone-mute-text">Mute off</p>
+            </div>
+
+
+        </div>
+
+        <!--BOTTOM SIDE WITH HOME BUTTON-->
+        <div class="iphone-frame__bottom iphone-fb">
+            <div class="iphone-fb__home" id="iphone-home"></div>
+        </div>
+
+    </div>
+
+    <!--LEFT BUTTONS OF IPHONE-->
+    <div class="iphone__left-buttons iphone-lb">
+        <div class="iphone-lb__mute" id="iphone-mute"></div>
+        <div class="iphone-lb__v-up" id="iphone-v-up"></div>
+        <div class="iphone-lb__v-down" id="iphone-v-down"></div>
+    </div>
+
+    <!--RIGHT BUTTONS OF IPHONE-->
+    <div class="iphone__right-buttons iphone-rb">
+        <div class="iphone-rb__power" id="iphone-power"></div>
+    </div>
+
+</div>
+
+<script src="js/date-time.js"></script>
+<script src="js/buttons.js"></script>
 
 </body>
 </html>
